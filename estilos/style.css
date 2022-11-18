@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+    /*
+        Paleta de cores
+        #54AEFA
+        #2A72AD
+        #70BFFF
+        #AD7318
+        #FAB955
+    */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+}
+
+header {
+    width: 98.3vw;
+}
+
+h1 {
+    font-size: 2.4em;
+    background-color: #54AEFA;
+    color: white;
+    height: 50px;
+    padding: 15px 0px 0px 0px;
+}
+
+h1, p {
+    text-align: center;
+}
+
+section#pesquisa {
+    text-align: center;
+    height: 30px;
+    width: 98.3vw;
+    background-color: #54AEFA;
+    padding: 15px 0px 20px 0px;
+}
+
+section > input {
+    margin-top: 10px;
+    outline: none;
+    text-align: center;
+    height: 40px;
+    width: 50vw;
+    border-radius: 800px;
+}
+
+nav {
+    border-left: 200px;
+    display: flex;
+    height: 55px;
+    width: 98.3vw;
+    background-color: #54AEFA;
+    padding: 15px 0px 2px 0px;
+    cursor: default;
+    justify-content: right;
+}
+
+nav > a#fc {
+    margin-right: 3px;
+}
+
+nav > a.menu {
+    display: inline-table;
+    height: 14px;
+    width: 86px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    margin-top: 28.3px;
+    margin-right: 1.2px;
+    background-color: #2a72ad93;
+    cursor: pointer;
+    border: 0.1px solid #2a72ad93;
+    border-radius: 2px;
+    box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.120);
+    transition: ease-in 0.1s;
+}
+
+nav > a.menu:hover {
+    height: 14.5px;
+    width: 88px;
+    font-size: 13.2px;
+    box-shadow: -1px 1.5px 4px rgba(0, 0, 0, 0.100);
+}
+
+nav > section {
+    margin-right: 560px;
+}
+
+nav > section > a > img {
+    display: flex;
+    margin-right: 10px;
+    margin-top: 20.8px;
+    height: 35px;
+    width: 35px;
+    transition: ease-in 0.1s;
+}
+
+nav > section > a > img:hover {
+    margin-right: 10px;
+    margin-top: 20.5px;
+    height: 35.8px;
+    width: 35.8px;
+}
+
+main {
+    height: 100vh;
+    width: 98.3vw;
+    background-color: rgb(94, 93, 93);
+    display: flex;
+}
+
+main > div > a {
+    display: inline-block;
+    height: 0px;
+    text-decoration: none;
+}
+
+main > div > a > section > img {
+    margin-left: 40px;
+    margin-top: 60px;
+    float: left;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(80, 79, 79);
+    border: 2px solid #2A72AD;
+}
+
+main > div > a > h2 {
+    padding: 5px;
+    margin-top: 262px;
+    margin-left: 39px;
+    background-color: #2A72AD;
+    height: 25px;
+    width: 196px;
+    color: white;
+    font-weight: normal;
+    font-size: 1.4em;
+}
+
+main > div > a > p {
+    padding: 5px;
+    margin-left: 39px;
+    background-color: #2A72AD;
+    height: 50px;
+    width: 196px;
+    color: white;
+    font-weight: normal;
+    font-size: 0.8em;
+    text-align: left;
+}
+
+main > div > a > p.preço {
+    font-size: 1.1em;
+}

@@ -1,0 +1,106 @@
+/* Configurações para tablet */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+}
+
+/* Configurações para celular */
+@media screen and (max-width: 768px) {
+    header {
+        width: 96.5vw;
+    }
+
+    section > input {
+        border-radius: 15px;
+    }
+
+    section#pesquisa {
+        width: 96.5vw;
+    }
+
+    nav {
+        width: 96.5vw;
+        padding-bottom: 1px;
+    }
+
+    nav > a.menu {
+        width: 200px;
+        font-size: 10px;
+    }
+
+    nav > a.menu:hover {
+        height: 14.5px;
+        width: 200px;
+        box-shadow: -1px 1.5px 4px rgba(0, 0, 0, 0.100);
+        font-size: 10px;
+    }
+
+    nav > a#fc {
+        margin-right: 0px;
+    }
+
+    nav > section {
+        margin-right: 100px;
+    }
+
+    nav > section > a > img {
+        display: flex;
+        margin-right: 10px;
+        margin-top: 23.5px;
+        height: 31px;
+        width: 31px;
+        transition: ease-in 0.1s;
+    }
+    
+    nav > section > a > img:hover {
+        margin-right: 10px;
+        margin-top: 23.5px;
+        height: 31px;
+        width: 31px;
+    }
+
+    main {
+        height: 1250px;
+        width: 96.5vw;
+        display: block;
+        text-align: center;
+    }
+
+    main > div > a > section > img {
+        position: absolute;
+        margin-left: -90px;
+        margin-top: 60px;
+        float: left;
+        height: 200px;
+        width: 200px;
+        background-color: rgb(80, 79, 79);
+        border: 2px solid #2A72AD;
+    }
+
+    main > div > a > h2 {
+        padding: 5px;
+        margin-top: 264px;
+        margin-left: 24px;
+        background-color: #2A72AD;
+        height: 24px;
+        width: 194px;
+        color: white;
+        font-weight: normal;
+        font-size: 1em;
+    }
+    
+    main > div > a > p {
+        padding: 5px;
+        margin-left: 24px;
+        background-color: #2A72AD;
+        height: 50px;
+        width: 194px;
+        color: white;
+        font-weight: normal;
+        font-size: 0.6em;
+        text-align: left;
+    }
+
+    main > div > a > p.preço {
+        font-size: 0.9em;
+    }
+}
