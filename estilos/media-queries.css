@@ -6,7 +6,7 @@
 /* Configurações para celular */
 @media screen and (max-width: 768px) {
     header {
-        width: 98vw;
+        width: 100vw;
     }
 
     section > input {
@@ -14,7 +14,7 @@
     }
 
     section#pesquisa {
-        width: 98vw;
+        width: 100vw;
     }
 
     nav {
@@ -60,7 +60,7 @@
 
     main {
         height: 1250px;
-        width: 98vw;
+        width: 100vw;
         display: block;
         text-align: center;
     }
